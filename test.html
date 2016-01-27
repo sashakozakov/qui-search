@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>При выборе input-radio, появляется блок с input-checkbox</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        .vis0 {display: none;}
+        .vis1 {display: block;}
+    </style>
+    <script language="javascript" type="text/javascript"><!--
+
+  window.onload = function () {
+ // $("#Location").hide();
+ // $( ".#location" ).hide();
+            var e1 = document.getElementById("location");
+            var e2 = document.getElementById("Industry");
+            var e3 = document.getElementById("Education");
+              e1.className='vis0';
+              e2.className='vis0';
+              e3.className='vis0';
+
+ };
+
+
+        function locat(stayType) {
+            var e1 = document.getElementById("location");
+            var e2 = document.getElementById("Industry");
+            var e3 = document.getElementById("Education");
+
+            if (stayType=='Location') {
+              e1.className='vis1';
+              e2.className='vis0';
+              e3.className='vis0';
+            }
+            else if (stayType=='Industry') {
+              e1.className='vis0';
+              e2.className='vis1';
+              e3.className='vis0';
+            }
+
+            else if (stayType=='Education') {
+              e1.className='vis0';
+              e2.className='vis0';
+              e3.className='vis1';
+            }
+            else {
+ alert("message");
+            }
+
+        }
+    //--></script>
+    <style>
+/*        .Location {display: none}
+        .Industry {display: none}
+        .Education {display: none}*/
+    </style>
+    </head>
+<body>
+<form action="" method="post" target="_blank">
+    <p>Укажите свой пол:</p>
+
+    <label><input name="radio_whois" type="radio" id="radio_whois1" value="Location" onclick="locat(this.value);" />Location</label>
+    <label><input name="radio_whois" type="radio" id="radio_whois2" value="Industry" onclick="locat(this.value);"  />Industry </label>
+    <label><input name="radio_whois" type="radio" id="radio_whois3" value="Education" onclick="locat(this.value);" />Education </label>
+
+    <div id="location">
+        <input  type="search" class="form-control form-location" id="exampleInputEmail5" placeholder="Type location" >
+    </div>
+    <div id="Industry">
+        <input  type="search" class="form-control form-location" id="exampleInputEmail5" placeholder="Type Industry" >
+    </div>
+    <div id="Education">
+        <input  type="search" class="form-control form-location" id="exampleInputEmail5" placeholder="Type Education" >
+    </div>
+</form>
+</body>
+</html>

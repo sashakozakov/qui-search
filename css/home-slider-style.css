@@ -1,0 +1,864 @@
+.flexible h3, .flexible p {
+
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .5);
+
+}
+
+.flexible .description, .form_block .form_btn, .form_block .form_or, .form_block .form_wrap, .form_block h2, .iblock, .navigate ul, .navigate ul li, header .logo, header .logo span {
+
+    display: inline-block;
+
+}
+
+.navigate ul li a:hover, a:hover {
+
+    text-decoration: none;
+
+}
+
+.left {
+
+    float: left;
+
+}
+
+.right {
+
+    float: right;
+
+}
+
+.relative {
+
+    position: relative;
+
+}
+
+.aright {
+
+    text-align: right;
+
+}
+
+.aleft {
+
+    text-align: left;
+
+}
+
+.acenter{
+
+    text-align: center;
+
+}
+
+/*[type=submit] {
+
+    cursor: pointer;
+
+}*/
+
+input, textarea {
+
+    font-family: inherit;
+
+}
+
+img {
+
+    border: none;
+
+    -webkit-user-drag: none;
+
+}
+
+.mgt10 {
+
+    margin-top: 10px;
+
+}
+
+.mgt15 {
+
+    margin-top: 15px;
+
+}
+
+.mgt20 {
+
+    margin-top: 20px;
+
+}
+
+.mgt30 {
+
+    margin-top: 30px;
+
+}
+
+.mgt40 {
+
+    margin-top: 40px;
+
+}
+
+.bottom_form, .top_form {
+
+    background: url(../img/top_form.jpg) 50% 50%/cover no-repeat;
+
+    min-height: 530px;
+
+    background-attachment:  fixed;
+
+}
+
+.top_form {
+
+    padding-bottom: 40px;
+
+}
+
+.top_form h1 {
+
+    color: #fff;
+
+    font-size: 60px;
+
+    margin: 57px 0 0;
+
+    font-weight: 700;
+
+    font-family: 'PT Serif', serif;
+
+}
+
+.top_form .form_block {
+
+    margin-top: 7px;
+
+}
+
+.better_way .description{
+
+    padding-bottom: 25px;
+
+}
+
+.bottom_form {
+
+    padding: 40px 0;
+
+}
+
+.form_block {
+
+    color: #fff;
+
+    margin-bottom: 35px;
+
+}
+
+@media (max-width: 530px){
+    .bottom_form .form_block{margin-bottom: 80px;}
+}
+
+
+.form_block h2 {
+
+    text-align: center;
+
+    font-weight: 500;
+
+    font-size: 30px;
+
+    line-height: 35px;
+
+    margin-bottom: 15px;
+
+    max-width: 385px;
+
+    width: 100%}
+
+.form_block .form_wrap {
+
+    max-width: 385px;
+
+    padding: 0 45px 34px;
+
+    border: 1px solid #fff;
+
+    border-top: 0;
+
+    text-align: center;
+
+    position: relative;
+
+}
+
+.form_block .form_wrap:after, .form_block .form_wrap:before {
+
+    position: absolute;
+
+    top: 0;
+
+    width: 10%;
+
+    height: 1px;
+
+    content: '';
+
+    background: #fff;
+
+}
+
+.form_block .form_wrap:before {
+
+    left: 0;
+
+}
+
+.form_block .form_wrap:after {
+
+    right: 0;
+
+}
+
+.form_block .form_wrap .title {
+
+    display: inline-block;
+
+    float: left;
+
+    font-size: 20px;
+
+    margin-top: -15px;
+
+    position: relative;
+
+    width: 100%;
+
+    margin-bottom: 18px;
+
+}
+
+.form_block .form_wrap input {
+
+    width: 100%;
+
+    height: 32px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+
+    padding: 0 20px;
+
+    text-align: center;
+
+    background: #fff;
+
+    color: #82837e;
+
+}
+
+.form_block .form_or {
+
+    position: relative;
+
+    font-size: 24px;
+
+    color: #fff;
+
+    margin: -3px 0 -2px;
+
+    padding: 0 10px;
+
+}
+
+.form_block .form_or:after, .form_block .form_or:before {
+
+    position: absolute;
+
+    top: 18px;
+
+    width: 50px;
+
+    height: 2px;
+
+    content: '';
+
+    background: #fff;
+
+}
+
+.form_block .form_or:before {
+
+    left: 100%}
+
+.flexible h3:before, .flexible p:before {
+
+    left: 0;
+
+}
+
+.form_block .form_or:after {
+
+    right: 100%}
+
+.flexible h3:after, .flexible p:after {
+
+    right: 0;
+
+}
+
+.form_block .form_btn {
+
+    width: 133px;
+
+    height: 36px;
+
+    border-radius: 5px;
+
+    transition: all .5s ease;
+
+}
+
+.form_block .form_btn.login_google {
+
+    float: right;
+
+    box-shadow: 0 3px 0 #922829;
+
+    background: url(../img/login_btn_google.png) 50% no-repeat #e13b3d;
+
+}
+
+.form_block .form_btn.login_google:hover {
+
+    background-color: #ea6567;
+
+}
+
+.form_block .form_btn.login_linkedin {
+
+    float: left;
+
+    box-shadow: 0 3px 0 #1b467b;
+
+    background: url(../img/login_btn_linkedin.png) 50% no-repeat #4172ad;
+
+}
+
+.form_block .form_btn.login_linkedin:hover {
+
+    background-color: #4d80bd;
+
+}
+
+.form_block .form_btn.signup, .form_block .form_btn.submit {
+
+    border: 0;
+
+    line-height: 36px;
+
+    font-size: 25px;
+
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .5);
+
+    box-shadow: 0 3px 0 #922829;
+
+    background: #e13b3d;
+
+    color: #fff;
+
+}
+
+.form_block .form_btn.signup:hover, .form_block .form_btn.submit:hover {
+
+    text-decoration: none;
+
+    background-color: #ea6567;
+
+}
+
+.better_way {
+
+    min-height: 680px;
+
+    background: url(../img/better.jpg) 50% 50%/cover no-repeat;
+
+    color: #82837e;
+
+    padding-bottom: 40px;
+
+    background-attachment:  fixed;
+
+}
+
+
+
+.better_way .wrap {
+
+    float: right;
+
+}
+
+
+
+.better_way h3 {
+
+    font-size: 60px;
+
+    font-weight: 700;
+
+    margin-bottom: 25px;
+
+    font-weight: 700;
+
+    font-family: 'PT Serif', serif;
+
+}
+
+.better_way .description {
+
+    font-size: 24px;
+
+    padding-top: 25px;
+
+    color: #82837e;
+
+    border-top: 1px solid #82837e;
+
+    font-family: Roboto, sans-serif;
+
+}
+
+.flexible {
+
+    min-height: 680px;
+
+    background: url(../img/flexible.jpg) 50% 50%/cover no-repeat;
+
+    color: #fff;
+
+    background-attachment:  fixed;
+
+}
+
+
+
+.flexible .description {
+
+    padding: 0;
+
+    border: 1px solid #fff;
+
+    border-top: 0;
+
+    border-bottom: 0;
+
+    position: relative;
+
+    /*vertical-align: middle;*/
+
+    /*display: inline-block;*/
+
+}
+
+.flexible h3 {
+
+    font-size: 60px;
+
+    color: #fff;
+
+    text-align: center;
+
+    font-weight: 700;
+
+    position: relative;
+
+    margin-top: -34px;
+
+    font-weight: 700;
+
+    font-family: 'PT Serif', serif;
+
+}
+
+.flexible h3:after, .flexible h3:before {
+
+    position: absolute;
+
+    top: 50%;
+
+    width: 30%;
+
+    height: 1px;
+
+    content: '';
+
+    background: #fff;
+
+    /*margin-top: -14px;*/
+
+}
+
+.flexible p {
+
+    font-size: 23px;
+
+    line-height: 40px;
+
+    color: #fff;
+
+    position: relative;
+
+    padding: 5% 16% 0;
+
+    margin: 0 0 -18px;
+
+    font-family: Roboto, sans-serif;
+
+}
+
+.flexible p:after, .flexible p:before {
+
+    position: absolute;
+
+    bottom: 18px;
+
+    width: 13%;
+
+    height: 1px;
+
+    content: '';
+
+    background: #fff;
+
+}
+
+.navigate {
+
+    min-height: 45px;
+
+    background: url(../img/navigate.jpg) 50% 50%/cover no-repeat;
+
+}
+
+.navigate.bottom {
+
+    background: #f3efef;
+
+}
+
+.navigate ul {
+
+    margin: 11px 0 0;
+
+    padding: 0;
+
+    display: block;
+
+    text-align: left;
+
+}
+
+.navigate ul li {
+
+    border-bottom: 3px solid transparent;
+
+    margin: 0 10px;
+
+}
+
+.navigate ul li a {
+
+    height: 22px;
+
+    padding: 0 5px;
+
+    vertical-align: middle;
+
+    font-size: 17px;
+
+    line-height: 22px;
+
+    color: #82837e;
+
+}
+
+.navigate ul li.active, .navigate ul li:hover {
+
+    border-bottom: 3px solid #82837e;
+
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+
+    .top_form .col-md-6, .top_form h1 {
+
+        text-align: center!important;
+
+    }
+
+    .navigate ul li{margin: 0 10px;}
+
+    .navigate ul{padding: 0;}
+
+}
+
+@media only screen and (max-width:767px){
+
+    .navigate ul li a{margin: 0 5px;}
+
+}
+
+@media only screen and (max-width:630px) {
+
+    .navigate ul li a{
+
+        padding: 0 10px;
+
+    }
+
+}
+
+@media only screen and (max-width:601px) {
+
+    .navigate ul li a{
+
+        padding: 0 2px;
+
+    }
+
+}
+
+@media only screen and (min-width:530px) and (max-width:768px) {
+
+    .top_form .col-md-6, .top_form h1 {
+
+        text-align: center!important;
+
+    }
+
+    .navigate ul li {
+
+        margin: 0;
+
+        padding: 0;
+
+    }
+
+    .navigate ul li a {
+
+        font-size: 20px;
+
+    }
+    
+    .flexible h3:after,
+    .flexible h3:before{width: 20%;}
+
+}
+
+@media only screen and (min-width:320px) and (max-width:530px) {
+
+    .top_form .col-md-6, .top_form h1, header a, header a span {
+
+        text-align: center!important;
+
+    }
+
+    header a img {
+
+        float: none!important;
+
+        margin: 0!important;
+
+    }
+
+    header a span {
+
+        border: 0!important;
+
+        padding: 0!important;
+
+    }
+
+    .top_form h1 {
+
+        font-size: 40px;
+
+        margin: 50px 0;
+
+    }
+    
+    .flexible h3,
+    .better_way h3{
+        font-size: 40px;
+    }
+    
+    .flexible h3:after,
+    .flexible h3:before{width: 16%;}
+
+    .form_block .form_btn {
+
+        border-radius: 5px;
+
+        height: 36px;
+
+        margin: 0 0 10px;
+
+        width: 100%}
+
+    .form_block h2, .navigate ul {
+
+        margin-bottom: 11px;
+        
+        text-align: center;
+
+    }
+
+    .form_block .form_wrap {
+
+        width: 100%;
+
+        padding: 0 20px 20px;
+
+    }
+
+    .form_block h2 {
+
+        font-size: 25px;
+
+        font-weight: 500;
+
+        line-height: 30px;
+
+        max-width: 385px;
+
+        text-align: center;
+
+        width: 100%}
+
+    .navigate ul li {
+
+        margin: 0;
+
+        padding: 0;
+
+        width: 100%}
+
+    .better_way, .flexible {
+
+        min-height: auto;
+
+        padding-bottom: 80px;
+
+    }
+
+    .navigate ul li a {
+
+        height: 30px;
+        
+        line-height: 30px;
+
+        font-size: 20px;
+
+        text-align: center;
+
+        display: inline;
+
+        width: 100%}
+
+    .navigate ul li a:hover{border-bottom: 1px solid #82837e;}
+
+    .navigate ul li a br {
+
+        display: none;
+
+    }
+
+    .better_way {
+
+        background: url(../img/better_1.jpg) 73% 50%/cover no-repeat;
+
+        position: relative;
+
+    }
+
+    .better_way:before {
+
+        position: absolute;
+
+        top: 0;
+
+        left: 0;
+
+        width: 100%;
+
+        height: 100%;
+
+        pointer-events: none;
+
+        content: '';
+
+        display: block!important;
+
+        z-index: 0;
+
+        background: rgba(255, 255, 255, .6);
+
+    }
+
+    .better_way .wrap {
+
+        /*margin-top: 80px;*/
+
+        position: relative;
+
+    }
+
+    .better_way .wrap .description {
+
+        font-size: 18px;
+
+    }
+
+    .flexible {
+
+        background: url(../img/flexible_1.jpg) 50% 50%/cover no-repeat;
+
+    }
+
+    .flexible .description {
+
+        /*margin-top: 80px;*/
+
+        padding: 0 0 30px;
+
+        border: 0;
+
+    }
+
+    .flexible .description:after, .flexible .description:before {
+
+        display: none;
+
+    }
+
+    .flexible .description p {
+
+        padding: 0 5%;
+
+    }
+
+    .navigate ul li:hover{
+
+        border-bottom: 3px solid transparent;
+
+    }
+
+}
+
